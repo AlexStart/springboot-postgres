@@ -1,0 +1,73 @@
+@@@ Setting active profile and config location from command line in spring boot @@@@
+
+web java -Dspring.profiles.active=test -jar target/*.jar
+
+java -jar -Dspring.profiles.active=[yourProfileName] target/[yourJar].jar
+
+When setting the profile via the Maven plugin you must do it via run.jvmArguments
+
+mvn spring-boot:run -Drun.jvmArguments="-Dspring.profiles.active=production"
+With debug option:
+mvn spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 -Dspring.profiles.active=jpa"
+
+Just create file setenv.sh in Tomcat's bin directory with content:
+
+JAVA_OPTS="$JAVA_OPTS -Dspring.profiles.active=dev"
+and it will be loaded automatically during running catalina.sh start or run
+
+altfatterz/application-heroku.properties
+https://gist.github.com/altfatterz/a525715b8360298bccae
+
+@@@@@@@@@@@@@@@@@@@@@@@ Деплой Java Spring приложения в PaaS-платформу Heroku @@@@@@@@@@@@@@@@@
+
+Деплой Java Spring приложения в PaaS-платформу Heroku за 14 минут
+https://www.youtube.com/watch?v=pUYKqsPZ_7Q
+Heroku+SpringMVC+TomCat+mySQL java config
+https://www.youtube.com/watch?v=_AfVChksLME
+Getting Started with Java on Heroku
+https://www.youtube.com/watch?v=mkmWwA0EoGg
+Deploy Spring MVC to Heroku
+https://www.youtube.com/watch?v=1ybfSPWUTYY
+
+@@@@ Deploying Spring Boot on Heroku @@@@@@@@@@@@@@@@@
+Deploying Tomcat-based Java Web Applications with Webapp Runner
+https://devcenter.heroku.com/articles/java-webapp-runner
+
+Connecting to Relational Databases on Heroku with Java
+https://devcenter.heroku.com/articles/connecting-to-relational-databases-on-heroku-with-java
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Spring Boot with non JDBC database url
+http://altfatterz.blogspot.com.by/2015/07/spring-boot-with-non-jdbc-database-url.html
+Spring Boot with Spring MVC and JPA: Pre-existing App Get Data¶
+http://clouddatafacts.com/heroku-connect/spring_boot_jpa/spring_boot_jpa_get.html#deploying-to-heroku
+Binding to Data Services with Spring Boot in Cloud Foundry
+https://spring.io/blog/2015/04/27/binding-to-data-services-with-spring-boot-in-cloud-foundry
+
+ClearDB MySQL
+https://devcenter.heroku.com/articles/cleardb
+
+Разработка полнофункционального Spring/JPA Enterprise приложения c авторизацией и правами доступа на основе ролей с
+использованием наиболее популярных инструментов и технологий Java:
+Maven, Spring MVC, Security, JPA(Hibernate), REST(Jackson), Bootstrap (css,js), datatables, jQuery + plugins, Java 8 Stream and Time API
+https://github.com/JavaOPs/topjava/blob/master/description.md
+
+Эффективная работа с кодом в IntelliJ IDEA
+http://jeeconf.com/archive/jeeconf-2013/materials/intellij-idea/
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!! JOB !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Осваиваем Java Enterprise. Трудоустройство. Ответы на вопросы.
+https://github.com/JavaOPs/topjava
+
+!!!!!!!!!!!!!!!!!Составление резюме, подготовка к интервью, поиск работы!!!!!!!!!!!!
+https://github.com/JavaOPs/topjava/blob/master/cv.md
+
+ОФОРМЛЕНИЕ IT-РЕЗЮМЕ
+https://olegblog.com/resume/
+
+Как составить резюме на английском: 450 примеров
+https://skyeng.ru/articles/sostavte-rezyume-na-anglijskom-450-primerov
+
+

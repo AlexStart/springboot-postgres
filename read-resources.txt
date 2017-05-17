@@ -1,0 +1,55 @@
+postgresql
+5432
+alex
+
+
+72.6 Set the active Spring profiles
+https://docs.spring.io/spring-boot/docs/current/reference/html/howto-properties-and-configuration.html#howto-set-active-spring-profiles
+
+##################### Working with SQL Databases in Spring Boot Application #################
+!!!USING H2 AND ORACLE WITH SPRING BOOT!!!
+https://springframework.guru/using-h2-and-oracle-with-spring-boot/
+springframeworkguru/springbootwebapp
+https://github.com/springframeworkguru/springbootwebapp/tree/spring-boot-h2-oracle
+
+Working with SQL Databases in Spring Boot Application
+http://www.dineshonjava.com/2016/08/working-with-sql-databases-in-spring-boot-application.html
+
+############################ USING Flyway database migration IN SPRING BOOT ###########################
+78.5.1 Execute Flyway database migrations on startup
+https://docs.spring.io/spring-boot/docs/current/reference/html/howto-database-initialization.html
+
+Running Database Migrations for Java Apps
+https://devcenter.heroku.com/articles/running-database-migrations-for-java-apps
+
+spring-projects/spring-boot
+https://github.com/spring-projects/spring-boot/tree/v1.5.3.RELEASE/spring-boot-samples/spring-boot-sample-flyway
+
+SpringBoot and Database migrations with FlyWay
+https://www.youtube.com/watch?v=_7BuLOCRJc4
+
+############################ USING MYSQL IN SPRING BOOT ###########################
+
+Using Spring Boot and Spring Data JPA to Access MySQL Data
+http://recursivechaos.com/blog/spring-boot-jpa-mysql/
+AndrewBell/mysql-jpa-demo
+https://github.com/AndrewBell/mysql-jpa-demo
+
+USING MYSQL IN SPRING BOOT VIA SPRING DATA JPA AND HIBERNATE
+http://blog.netgloo.com/2014/10/27/using-mysql-in-spring-boot-via-spring-data-jpa-and-hibernate/
+
+USE MYSQL DATABASE IN A SPRING BOOT WEB APPLICATION THROUGH HIBERNATE
+http://blog.netgloo.com/2014/08/17/use-mysql-database-in-a-spring-boot-web-application-through-hibernate/
+
+############################ Spring Data JPA ###########################
+
+Spring Data JPA - Reference Documentation
+http://docs.spring.io/spring-data/data-jpa/docs/current/reference/html/#jpa.query-methods.query-creation
+
+
+############################ A LOT OF SPRING AND SPRING BOOT EXAMPLES ###########################
+https://github.com/spring-projects
+SPRING BOOT
+https://github.com/spring-projects/spring-boot
+SPRING FRAMWORK
+https://github.com/spring-projects/spring-framework
