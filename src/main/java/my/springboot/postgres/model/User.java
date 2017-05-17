@@ -3,6 +3,7 @@ package my.springboot.postgres.model;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * Created by gladivs on 16.05.2017.
@@ -11,7 +12,8 @@ import java.io.Serializable;
 @Table(name="users")
 public class User implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(generator = "users_seq", strategy = GenerationType.SEQUENCE)
+    @SequenceGenerator(name = "users_seq", sequenceName = "public.users_seq", allocationSize = 1)
     private Long id;
     @Column(name = "first_name")
     @NotNull
@@ -21,6 +23,9 @@ public class User implements Serializable {
     private String lastName;
     @NotNull
     private Integer age;
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
+    private List<Recommendation> recommendations;
 
     public Long getId() {
         return id;
@@ -52,6 +57,14 @@ public class User implements Serializable {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public List<Recommendation> getRecommendations() {
+        return recommendations;
+    }
+
+    public void setRecommendations(List<Recommendation> recommendations) {
+        this.recommendations = recommendations;
     }
 
 }

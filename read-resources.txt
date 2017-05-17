@@ -3,6 +3,13 @@ postgresql
 alex
 
 
+@@@@@@@@@@@@@@@@@ How to use Spring JPA with PostgreSQL | Spring Boot @@@@@@@@@@@@
+How to use Spring JPA with PostgreSQL | Spring Boot
+http://javasampleapproach.com/spring-framework/use-spring-jpa-postgresql-spring-boot
+REST Server with Spring Data, Spring Boot and PostgreSQL
+http://mrbool.com/rest-server-with-spring-data-spring-boot-and-postgresql/34023
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Spring profiles @@@@@@@@@@@@@@@@@@@@
 72.6 Set the active Spring profiles
 https://docs.spring.io/spring-boot/docs/current/reference/html/howto-properties-and-configuration.html#howto-set-active-spring-profiles
 

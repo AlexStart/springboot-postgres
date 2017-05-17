@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>my.springboot-mysql</groupId>
-	<artifactId>springboot-mysql</artifactId>
+	<groupId>my.springboot-postgres</groupId>
+	<artifactId>springboot-postgres</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-mysql</name>
-	<description>Demo project for Spring Boot MySql</description>
+	<name>springboot-postgres</name>
+	<description>Demo project for Spring Boot PostGresSql</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -50,7 +50,8 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-            <version>9.4-1206-jdbc42</version>
+            <!--<version>9.4-1206-jdbc42</version>-->
+			<scope>runtime</scope>
 		</dependency>
         <dependency>
             <groupId>org.flywaydb</groupId>
