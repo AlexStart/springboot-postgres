@@ -1,7 +1,9 @@
 package my.springboot.postgres.controller;
 
 
+import my.springboot.postgres.model.Recommendation;
 import my.springboot.postgres.model.User;
+import my.springboot.postgres.service.IRecommendationService;
 import my.springboot.postgres.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,6 +23,8 @@ public class UserController {
 
     @Autowired
     private IUserService userService;
+    @Autowired
+    private IRecommendationService recommendationService;
 
     public UserController(){
 
@@ -29,6 +33,11 @@ public class UserController {
     @PostMapping()
     public User createUser(@RequestBody User user){
         return userService.createUser(user);
+    }
+
+    @PostMapping(value = "/{id}/recommendations")
+    public List<Recommendation> createUserRecommendations(@PathVariable Long id, @RequestBody List<Recommendation> recommendations){
+        return recommendationService.createUserRecommendations(id, recommendations);
     }
 
     //TODO :

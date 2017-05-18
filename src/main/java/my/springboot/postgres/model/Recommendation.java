@@ -18,9 +18,8 @@ public class Recommendation implements Serializable {
     private String name;
     @NotNull
     private String description;
-    @NotNull
-    @Column(name = "user_id")
-    private Integer userId;
+    @Column(name = "user_id", nullable = false)
+    private Long userId;
 
     public Long getId() {
         return id;
@@ -46,11 +45,11 @@ public class Recommendation implements Serializable {
         this.description = description;
     }
 
-    public Integer getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 
