@@ -18,18 +18,16 @@ public class RecommendationServiceImpl implements IRecommendationService {
     @Autowired
     private IRecommendationRepository recommendationRepository;
 
-    //TODO : Make via CrudRepository.save<S extends T> Iterable<S> save(Iterable<S> var1);
     @Override
     public List<Recommendation> createUserRecommendations(Long userId, List<Recommendation> recommendations) {
         if(userId == null || recommendations == null || recommendations.size() == 0) {
             throw  new IllegalArgumentException("Illegal Arguments");
         }
-        List<Recommendation> recommendationList = new ArrayList<>();
+
         for(Recommendation recommendation : recommendations) {
             recommendation.setUserId(userId);
-            recommendationList.add(recommendationRepository.save(recommendation));
         }
 
-        return recommendationList;
+        return (List<Recommendation>)recommendationRepository.save(recommendations);
     }
 }
