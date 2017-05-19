@@ -2,6 +2,7 @@ postgresql
 5432
 alex
 
+nameless-springs-95846
 
 @@@@@@@@@@@@@@@@@ How to use Spring JPA with PostgreSQL | Spring Boot @@@@@@@@@@@@
 How to use Spring JPA with PostgreSQL | Spring Boot
