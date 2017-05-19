@@ -1,0 +1,18 @@
+Spring на практике - Знакомство с Spring Boot
+https://www.youtube.com/watch?v=BV4EQnz-KG4
+
+Key Components and Internals of Spring Boot Framework
+http://www.journaldev.com/7989/key-components-and-internals-of-spring-boot-framework
+
+How Spring Boot Autoconfiguration Magic Works
+https://dzone.com/articles/how-springboot-autoconfiguration-magic-works
+
+How SpringBoot AutoConfiguration magic works?
+http://sivalabs.in/2016/03/how-springboot-autoconfiguration-magic/
+
+Looking for resource to help understand how Spring boot works
+http://stackoverflow.com/questions/23907611/looking-for-resource-to-help-understand-how-spring-boot-works
+
+12 - Spring. Последовательность инициализации
+https://www.youtube.com/watch?v=C2WSMRBae7Q&list=PLwwk4BHih4fho6gmaAwdHYZ6QQq0aE7Zi&index=15
+

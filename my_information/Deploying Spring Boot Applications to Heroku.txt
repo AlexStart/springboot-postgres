@@ -1,0 +1,46 @@
+Spring Boot: от начала до продакшена
+https://habrahabr.ru/post/257223/
+
+Getting Started with Spring MVC Hibernate on Heroku
+https://devcenter.heroku.com/articles/getting-started-with-spring-mvc-hibernate
+
+Deploying Java Applications to Heroku from Eclipse or IntelliJ IDEA
+https://devcenter.heroku.com/articles/deploying-java-applications-to-heroku-from-eclipse-or-intellij-idea
+
+Spring Boot and JDBC for PostgreSQL on Heroku - QuickStart
+http://clouddatafacts.com/heroku/heroku-spring-boot-psql/spring_boot_psql_short.html
+rajdeepd/heroku-spring-boot-jdbc-psql
+https://github.com/rajdeepd/heroku-spring-boot-jdbc-psql
+
+Деплой Java Spring приложения в PaaS-платформу Heroku за 14 минут
+https://www.youtube.com/watch?v=pUYKqsPZ_7Q
+
+Deploying Spring Boot Applications to Heroku
+https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
+
+Getting Started on Heroku with Java
+https://devcenter.heroku.com/articles/getting-started-with-java#view-logs
+
+Deploying Tomcat-based Java Web Applications with Webapp Runner
+https://devcenter.heroku.com/articles/java-webapp-runner
+
+Create a Java Web Application Using Embedded Tomcat
+https://devcenter.heroku.com/articles/create-a-java-web-application-using-embedded-tomcat
+
+Frequently Asked Questions about Java
+https://devcenter.heroku.com/articles/java-faq
+
+Deploying Executable JAR Files
+https://devcenter.heroku.com/articles/deploying-executable-jar-files
+
+Heroku Error Codes
+https://devcenter.heroku.com/articles/error-codes#r10-boot-timeout
+
+Connecting to Relational Databases on Heroku with Java
+https://devcenter.heroku.com/articles/connecting-to-relational-databases-on-heroku-with-java
+
+Running Database Migrations for Java Apps
+https://devcenter.heroku.com/articles/running-database-migrations-for-java-apps
+
+HEROKE COMMANDS :
+heroku logs --tail >> mylog.txt
