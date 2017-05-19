@@ -1,0 +1,18 @@
+Database Credentials
+
+Get credentials for manual connections to this database.
+
+Cancel
+Please note that these credentials are not permanent.
+Heroku rotates credentials periodically and updates applications where this database is attached.
+
+Host: ec2-54-228-255-234.eu-west-1.compute.amazonaws.com
+Database: d33dsnrr798vuv
+User: xfzhuxayhdzfpw
+Port: 5432
+Password: 564bffe0cdfb5811d945d5e9fbd29eb0ce9c6eb48b2db0eec930050173b31dca
+URI: postgres://xfzhuxayhdzfpw:564bffe0cdfb5811d945d5e9fbd29eb0ce9c6eb48b2db0eec930050173b31dca@ec2-54-228-255-234.eu-west-1.compute.amazonaws.com:5432/d33dsnrr798vuv
+Heroku CLI: heroku pg:psql postgresql-corrugated-89886 --app springboot-postgres
+
+
+DATABASE_URI: postgres://xfzhuxayhdzfpw:564bffe0cdfb5811d945d5e9fbd29eb0ce9c6eb48b2db0eec930050173b31dca@ec2-54-228-255-234.eu-west-1.compute.amazonaws.com:5432/d33dsnrr798vuv
